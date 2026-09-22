@@ -1,0 +1,92 @@
+*EXP.DETAILS: BDAR2601RI BORO RICE CF VS AWD (ARONGHATA)
+
+*GENERAL
+@PEOPLE
+Md Shakawat Hossain
+@ADDRESS
+Khulna Agricultural University, Khulna
+@SITE
+Aronghata, Khulna, Bangladesh
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+     20   -99   -99   -99   -99   -99    10   -99   -99   -99
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 0 0 Continuous Flooding (CF)   1  1  0  0  1  1  0  0  0  0  0  0  1
+ 2 1 0 0 Safe-AWD                   1  1  0  0  1  2  0  0  0  0  0  0  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 RI IB0027 BR 3,BORO
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 BDAR0001 BDAR       -99   -99 DR000   -99   -99   -99 SICL   -99  BDAR000001 Aronghata Boro field
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 26015 26015    25    25     T     R    20     0     3   -99    30    18     2   -99                        Transplanted Boro rice
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100  S000  R001   -99 Continous Flooding
+@I IDATE  IROP IRVAL
+ 1 26020 IR003    34
+ 1 26026 IR003  35.6
+ 1 26031 IR003  30.8
+ 1 26036 IR003  32.3
+ 1 26041 IR003  36.1
+ 1 26045 IR003  30.9
+ 1 26049 IR003  32.3
+ 1 26053 IR003    31
+ 1 26058 IR003  32.2
+ 1 26062 IR003  35.7
+ 1 26066 IR003  33.5
+ 1 26071 IR003  33.1
+ 1 26075 IR003  32.4
+ 1 26084 IR003  30.3
+ 1 26091 IR003  35.5
+ 1 26095 IR003  36.4
+ 1 26108 IR003    36
+ 1 26112 IR003    36
+ 1 26116 IR003  35.8
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100  S000  R001   -99 Alternate FLooding
+@I IDATE  IROP IRVAL
+ 2 26020 IR003  34.1
+ 2 26026 IR003  35.6
+ 2 26054 IR003 200.5
+ 2 26069 IR003 114.7
+ 2 26073 IR003  30.3
+ 2 26083 IR003  37.1
+ 2 26088 IR003  30.1
+ 2 26093 IR003  34.1
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 26015  2150 DEFAULT SIMULATION CONTR  RICER
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL            001   001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0   001   100     0
+
+
+

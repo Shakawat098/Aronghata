@@ -1,0 +1,279 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.6.000 -Release  SEP 21, 2026 21:32:41
+
+*RUN   1        : Continuous Flooding (CF)  RICER048 BDAR2601    1
+ MODEL          : RICER048 - Rice
+ EXPERIMENT     : BDAR2601 RI BORO RICE CF VS AWD (ARONGHATA)
+ DATA PATH      : C:\DSSAT48\Rice\
+ TREATMENT  1   : Continuous Flooding (CF)  RICER048
+
+
+ CROP           : Rice             CULTIVAR : 20 BR 3,BORO     ECOTYPE :IB0001
+ STARTING DATE  : JAN 15 2026
+ PLANTING DATE  : JAN 15 2026      PLANTS/m2 :    25.0    ROW SPACING :  20.cm
+ WEATHER        : BDAR   2026
+ SOIL           : BDAR000001     TEXTURE : SICL  -   Ganges Tidal Alluvium
+ SOIL INIT COND : DEPTH: 60cm EXTR. H2O:115.5mm  NO3:  0.0kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :      640 mm IN    19 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 429ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:R  HARVEST:M
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.180 0.380 0.480 0.200 0.380   1.00   1.36   6.90   0.00   0.00   0.95
+  5- 15 0.180 0.380 0.480 0.200 0.380   1.00   1.36   6.90   0.00   0.00   0.95
+ 15- 30 0.200 0.390 0.470 0.190 0.390   0.50   1.40   7.00   0.00   0.00   0.57
+ 30- 45 0.210 0.400 0.460 0.190 0.400   0.10   1.45   7.20   0.00   0.00   0.33
+ 45- 60 0.210 0.400 0.460 0.190 0.400   0.10   1.45   7.20   0.00   0.00   0.33
+
+TOT- 60  12.0  23.5  28.0  11.6  23.5  <--cm   -  kg/ha-->    0.0    0.0  45705
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :75.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 1.00
+
+ Rice             CULTIVAR: IB0027-20 BR 3,BORO       ECOTYPE: IB0001
+ P1     : 650.0  P2R    :  90.0  P5     : 400.0  P2O    :  13.0
+ G1     :  65.0  G2     :0.0250  G3     :  1.00  THOT   :  28.0  TCLDP  :  15.0  TCLDF  :  15.0
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     Continuous Flooding (CF)
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 15 JAN    0 Transplant      30   0.04   2.0    1  4.0  0.00  0.00  0.00  0.00     1
+ 15 JAN    0 Start Sim       30   0.04   2.0    1  4.0  0.00  0.00  0.00  0.00     1
+  2 MAR   46 End Juveni      92   0.04   9.0    2  2.3  0.00  0.62  0.00  0.00     2
+ 10 MAR   54 Pan Init       130   0.05  11.0    3  2.2  0.00  0.64  0.00  0.00     3
+ 15 APR   90 Heading        576   0.13  16.0    9  1.5  0.00  0.30  0.00  0.00     4
+ 22 APR   97 Beg Gr Fil     715   0.12  16.0   10  1.5  0.00  0.07  0.00  0.00     5
+ 13 MAY  118 End Mn Fil    1092   0.10  16.0   10  0.9  0.00  0.00  0.00  0.00     5
+ 14 MAY  119 End Ti Fil    1092   0.10  16.0   10  0.9  0.00  0.00  0.00  0.00     6
+ 15 MAY  120 Maturity      1092   0.10  16.0   10  0.9  0.00  0.00  0.00  0.00    20
+ 15 MAY  120 Harvest       1092   0.10  16.0   10  0.9  0.00  0.00  0.00  0.00    20
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Panicle Initiation day (dap)                            54          -99
+      Anthesis day (dap)                                      90          -99
+      Physiological maturity day (dap)                       120          -99
+      Yield at harvest maturity (kg [dm]/ha)                 287          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0250          -99
+      Number at maturity (no/m2)                            1147          -99
+      Pod or panicle number (no/m2)                        59.18          -99
+      Leaf area index, maximum                              0.13          -99
+      Tops weight at anthesis (kg [dm]/ha)                   552          -99
+      Tops N at anthesis (kg/ha)                               9          -99
+      Biomass at maturity (total crop minus roots) (kg[d    1092          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha     805          -99
+      Harvest index at maturity                            0.263          -99
+      Leaf number per stem at maturity                        16          -99
+      Grain N at maturity (kg/ha)                              4          -99
+      Tops N at maturity (kg/ha)                              10          -99
+      Stem N at maturity (kg/ha)                               7          -99
+      Grain N at maturity (%)                               1.23          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence-End Juvenile    46  28.9  13.0  21.0  16.2  11.09  428.9    4.4  126.7  191.1    0    0   16    8    1    3  0.000  0.000  0.438  0.609  0.000  0.000
+ End Juvenil-Panicl Init    8  34.2  19.2  26.7  17.5  11.62  429.4    0.1   24.6   39.6    0    0    8    8    4    1  0.000  0.000  0.467  0.646  0.000  0.000
+ Panicl Init-End Lf Grow   36  35.0  21.9  28.4  16.5  12.12  430.0  146.6  132.2  181.8    0    0   33   32   24   29  0.000  0.000  0.166  0.317  0.000  0.000
+ End Lf Grth-Beg Grn Fil    7  38.0  24.6  31.3  17.4  12.59  431.1    6.2   22.4   41.4    0    0    7    7    7    6  0.000  0.000  0.000  0.089  0.000  0.000
+ Grain Filling Phase ...   22  34.1  24.2  29.1  18.4  12.88  431.1  159.9  102.8  121.0    0    0   21   16    6   18  0.000  0.000  0.000  0.000  0.000  0.000
+   
+ Planting to Harvest ...  120  32.6  18.9  25.8  16.9  11.87  429.8  336.2  414.8  580.9    0    0   86   72   42   58  0.000  0.000  0.249  0.377  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 120 days 
+
+ Precipitation during growing season       336.2 mm[rain]
+   Dry Matter Productivity                  0.32 kg[DM]/m3[rain]          =    3.2 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.09 kg[grain yield]/m3[rain] =    0.9 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  414.8 mm[ET]
+   Dry Matter Productivity                  0.26 kg[DM]/m3[ET]            =    2.6 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.07 kg[grain yield]/m3[ET]   =    0.7 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season        35.7 mm[EP]
+   Dry Matter Productivity                  3.06 kg[DM]/m3[EP]            =   30.6 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.80 kg[grain yield]/m3[EP]   =    8.0 kg[yield]/ha per mm[EP]
+
+ Irrigation during growing season          639.9 mm[irrig]
+   Dry Matter Productivity                  0.17 kg[DM]/m3[irrig]         =    1.7 kg[DM]/ha per mm[irrig]
+   Yield Productivity                       0.04 kg[grain yield]/m3[irrig]=    0.4 kg[yield]/ha per mm[irrig]
+
+ N uptake during growing season               10 kg[N uptake]/ha
+   Dry Matter Productivity                 109.2 kg[DM]/kg[N uptake]
+   Yield Productivity                       28.7 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                      Rice YIELD :      287 kg/ha    [Dry weight] 
+
+**************************************************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.6.000 -Release  SEP 21, 2026 21:32:41
+
+*RUN   2        : Safe-AWD                  RICER048 BDAR2601    2
+ MODEL          : RICER048 - Rice
+ EXPERIMENT     : BDAR2601 RI BORO RICE CF VS AWD (ARONGHATA)
+ DATA PATH      : C:\DSSAT48\Rice\
+ TREATMENT  2   : Safe-AWD                  RICER048
+
+
+ CROP           : Rice             CULTIVAR : 20 BR 3,BORO     ECOTYPE :IB0001
+ STARTING DATE  : JAN 15 2026
+ PLANTING DATE  : JAN 15 2026      PLANTS/m2 :    25.0    ROW SPACING :  20.cm
+ WEATHER        : BDAR   2026
+ SOIL           : BDAR000001     TEXTURE : SICL  -   Ganges Tidal Alluvium
+ SOIL INIT COND : DEPTH: 60cm EXTR. H2O:115.5mm  NO3:  0.0kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :      517 mm IN     8 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 429ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:R  HARVEST:M
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.180 0.380 0.480 0.200 0.380   1.00   1.36   6.90   0.00   0.00   0.95
+  5- 15 0.180 0.380 0.480 0.200 0.380   1.00   1.36   6.90   0.00   0.00   0.95
+ 15- 30 0.200 0.390 0.470 0.190 0.390   0.50   1.40   7.00   0.00   0.00   0.57
+ 30- 45 0.210 0.400 0.460 0.190 0.400   0.10   1.45   7.20   0.00   0.00   0.33
+ 45- 60 0.210 0.400 0.460 0.190 0.400   0.10   1.45   7.20   0.00   0.00   0.33
+
+TOT- 60  12.0  23.5  28.0  11.6  23.5  <--cm   -  kg/ha-->    0.0    0.0  45705
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :75.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 1.00
+
+ Rice             CULTIVAR: IB0027-20 BR 3,BORO       ECOTYPE: IB0001
+ P1     : 650.0  P2R    :  90.0  P5     : 400.0  P2O    :  13.0
+ G1     :  65.0  G2     :0.0250  G3     :  1.00  THOT   :  28.0  TCLDP  :  15.0  TCLDF  :  15.0
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     2     Safe-AWD                
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 15 JAN    0 Transplant      30   0.04   2.0    1  4.0  0.00  0.00  0.00  0.00     1
+ 15 JAN    0 Start Sim       30   0.04   2.0    1  4.0  0.00  0.00  0.00  0.00     1
+  2 MAR   46 End Juveni      88   0.04   9.0    2  2.2  0.00  0.63  0.00  0.00     2
+ 10 MAR   54 Pan Init       117   0.04  11.0    3  2.1  0.00  0.72  0.00  0.00     3
+ 15 APR   90 Heading        566   0.13  16.0    9  1.5  0.00  0.29  0.00  0.00     4
+ 22 APR   97 Beg Gr Fil     705   0.12  16.0   10  1.4  0.00  0.08  0.00  0.00     5
+ 13 MAY  118 End Mn Fil    1080   0.10  16.0   10  0.9  0.00  0.00  0.00  0.00     5
+ 14 MAY  119 End Ti Fil    1080   0.10  16.0   10  0.9  0.00  0.00  0.00  0.00     6
+ 15 MAY  120 Maturity      1080   0.10  16.0   10  0.9  0.00  0.00  0.00  0.00    20
+ 15 MAY  120 Harvest       1080   0.10  16.0   10  0.9  0.00  0.00  0.00  0.00    20
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Panicle Initiation day (dap)                            54          -99
+      Anthesis day (dap)                                      90          -99
+      Physiological maturity day (dap)                       120          -99
+      Yield at harvest maturity (kg [dm]/ha)                 279          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0250          -99
+      Number at maturity (no/m2)                            1115          -99
+      Pod or panicle number (no/m2)                        57.99          -99
+      Leaf area index, maximum                              0.13          -99
+      Tops weight at anthesis (kg [dm]/ha)                   543          -99
+      Tops N at anthesis (kg/ha)                               8          -99
+      Biomass at maturity (total crop minus roots) (kg[d    1080          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha     801          -99
+      Harvest index at maturity                            0.258          -99
+      Leaf number per stem at maturity                        16          -99
+      Grain N at maturity (kg/ha)                              3          -99
+      Tops N at maturity (kg/ha)                              10          -99
+      Stem N at maturity (kg/ha)                               6          -99
+      Grain N at maturity (%)                               1.22          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence-End Juvenile    46  28.9  13.0  21.0  16.2  11.09  428.9    4.4   73.0  189.8    0    0   16    8    1    3  0.000  0.000  0.456  0.621  0.000  0.000
+ End Juvenil-Panicl Init    8  34.2  19.2  26.7  17.5  11.62  429.4    0.1    6.7   38.9    0    0    8    8    4    1  0.000  0.000  0.531  0.712  0.000  0.000
+ Panicl Init-End Lf Grow   36  35.0  21.9  28.4  16.5  12.12  430.0  146.6  133.4  181.4    0    0   33   32   24   29  0.000  0.000  0.131  0.302  0.000  0.000
+ End Lf Grth-Beg Grn Fil    7  38.0  24.6  31.3  17.4  12.59  431.1    6.2   13.9   41.3    0    0    7    7    7    6  0.000  0.000  0.000  0.103  0.000  0.000
+ Grain Filling Phase ...   22  34.1  24.2  29.1  18.4  12.88  431.1  159.9   88.7  120.6    0    0   21   16    6   18  0.000  0.000  0.000  0.000  0.000  0.000
+   
+ Planting to Harvest ...  120  32.6  18.9  25.8  16.9  11.87  429.8  336.2  321.7  578.2    0    0   86   72   42   58  0.000  0.000  0.250  0.382  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 120 days 
+
+ Precipitation during growing season       336.2 mm[rain]
+   Dry Matter Productivity                  0.32 kg[DM]/m3[rain]          =    3.2 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.08 kg[grain yield]/m3[rain] =    0.8 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  321.7 mm[ET]
+   Dry Matter Productivity                  0.34 kg[DM]/m3[ET]            =    3.4 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.09 kg[grain yield]/m3[ET]   =    0.9 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season        36.7 mm[EP]
+   Dry Matter Productivity                  2.94 kg[DM]/m3[EP]            =   29.4 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.76 kg[grain yield]/m3[EP]   =    7.6 kg[yield]/ha per mm[EP]
+
+ Irrigation during growing season          516.5 mm[irrig]
+   Dry Matter Productivity                  0.21 kg[DM]/m3[irrig]         =    2.1 kg[DM]/ha per mm[irrig]
+   Yield Productivity                       0.05 kg[grain yield]/m3[irrig]=    0.5 kg[yield]/ha per mm[irrig]
+
+ N uptake during growing season               10 kg[N uptake]/ha
+   Dry Matter Productivity                 108.0 kg[DM]/kg[N uptake]
+   Yield Productivity                       27.9 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                      Rice YIELD :      279 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

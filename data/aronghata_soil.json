@@ -1,0 +1,15 @@
+{
+    "site_name": "Aronghata_Khulna",
+    "soil_series": "Ganges Tidal Alluvium (Non-saline)",
+    "soil_texture": "Silty Clay Loam",
+    "clay_fraction": 0.34,
+    "silt_fraction": 0.48,
+    "sand_fraction": 0.18,
+    "bulk_density_g_cm3": 1.36,
+    "soil_ph": 6.9,
+    "soil_organic_carbon_pct": 0.95,
+    "field_capacity": 0.38,
+    "wilting_capacity": 0.18,
+    "percolation_rate_mm_day": 3.2,
+    "bund_height_mm": 80.0
+}

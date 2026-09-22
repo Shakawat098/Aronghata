@@ -1,0 +1,2 @@
+site_name,soil_series,soil_texture,clay_fraction,silt_fraction,sand_fraction,bulk_density_g_cm3,soil_ph,soil_organic_carbon_pct,field_capacity,wilting_capacity,percolation_rate_mm_day,bund_height_mm
+Aronghata_Khulna,Ganges Tidal Alluvium (Non-saline),Silty Clay Loam,0.34,0.48,0.18,1.36,6.9,0.95,0.38,0.18,3.2,80.0
