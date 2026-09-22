@@ -254,17 +254,17 @@ This project built and tested an end-to-end agro-hydrological modeling pipeline 
 
 ### The Two Major Breakthrough Findings
 
-> #### 🌍 1. Significant Methane ($\text{CH}_4$) Emission Reduction (~34%)
->
-> - **The Mechanism:** Traditional continuous flooding keeps the soil continuously submerged and starved of oxygen, creating the ideal anaerobic environment for methanogenic (methane-producing) archaea to thrive.
-> - **The AWD Effect:** Periodic drainage introduces atmospheric oxygen directly into the topsoil. This aerobic pulse suppresses methane production and stimulates methanotrophic (methane-consuming) bacteria.
-> - **The Impact:** Based on IPCC Tier-2 scaling factors coupled with daily water-table dynamics, Safe-AWD achieved an estimated **~34% reduction in seasonal methane emissions** compared to continuous flooding.
+> #### 1. Significant Methane ($\text{CH}_4$) Emission Reduction (~34%)
 
-> #### 💧 2. Substantial Water Savings (19.3%) Without Crop Stress
->
-> - **Saved Water:** Reduced total applied irrigation from 639.9 mm to 516.5 mm — an absolute saving of **123.4 mm (~19%)**.
-> - **Saved Pumping & Fuel:** Reduced irrigation operations from 19 down to only 8 events — a **58% decrease in pumping frequency**, directly cutting diesel/electricity costs for farmers.
-> - **Zero Yield Penalty:** Crop water stress index remained at **0.000 (zero physiological stress)** across all developmental stages, maintaining identical yield and biomass trajectories.
+- **The Mechanism:** Traditional continuous flooding keeps the soil continuously submerged and starved of oxygen, creating the ideal anaerobic environment for methanogenic (methane-producing) archaea to thrive.
+- **The AWD Effect:** Periodic drainage introduces atmospheric oxygen directly into the topsoil. This aerobic pulse suppresses methane production and stimulates methanotrophic (methane-consuming) bacteria.
+- **The Impact:** Based on IPCC Tier-2 scaling factors coupled with daily water-table dynamics, Safe-AWD achieved an estimated **~34% reduction in seasonal methane emissions** compared to continuous flooding.
+
+> #### 2. Substantial Water Savings (19.3%) Without Crop Stress
+
+- **Saved Water:** Reduced total applied irrigation from 639.9 mm to 516.5 mm — an absolute saving of **123.4 mm (~19%)**.
+- **Saved Pumping & Fuel:** Reduced irrigation operations from 19 down to only 8 events — a **58% decrease in pumping frequency**, directly cutting diesel/electricity costs for farmers.
+- **Zero Yield Penalty:** Crop water stress index remained at **0.000 (zero physiological stress)** across all developmental stages, maintaining identical yield and biomass trajectories.
 
 ---
 
